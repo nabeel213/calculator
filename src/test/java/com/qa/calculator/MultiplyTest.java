@@ -5,15 +5,16 @@ import static org.junit.Assert.*;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AdderTest {
+public class MultiplyTest {
 
-	private Adder adder;
+	private Multiply multi;
 	@Test
 	public void testAdd() {
-		adder = new Adder();
+		multi = new Multiply();
 		int expectedValue = 4;
-		int actualValue = adder.add(2, 2);
+		int actualValue = multi.multiplyNums(2, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 		
 	}
+
 }
