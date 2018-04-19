@@ -4,7 +4,6 @@ public class Multiply {
 
 	public int multiplyNums(int input1, int input2) {
 		
-		return 0;
+		return input1 * input2;
 	}
-
 }
