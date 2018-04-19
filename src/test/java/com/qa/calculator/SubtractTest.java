@@ -9,7 +9,7 @@ public class SubtractTest {
 
 	private Subtractor subtractor;
 	@Test
-	public void test() {
+	public void testSubtractor() {
 		subtractor = new Subtractor();
 		int expectedValue = 2;
 		int actualValue = subtractor.sub(4,2);

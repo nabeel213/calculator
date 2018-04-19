@@ -9,11 +9,11 @@ public class AdderTest {
 
 	private Adder adder;
 	@Test
-	public void test() {
+	public void testAdder() {
 		adder = new Adder();
 		int expectedValue = 4;
 		int actualValue = adder.add(2, 2);
 		Assert.assertEquals(expectedValue, actualValue);
+		
 	}
-
 }
