@@ -8,7 +8,7 @@ public class DivisionTest {
 	private Division div;
 	
 	@Test
-	public void test() {
+	public void testDivide() {
 		div = new Division();
 		
 		int expectedValue = 2;
